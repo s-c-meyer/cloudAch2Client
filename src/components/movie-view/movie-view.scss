@@ -1,0 +1,10 @@
+img {
+  width: 75%;
+}
+
+@media screen and (max-width: 992px){
+  img {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}

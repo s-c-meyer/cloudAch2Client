@@ -1,0 +1,36 @@
+//make any global styling changes here, above the import statement
+$primary: rgba(30, 143, 255, 0.445);
+$secondary: azure;
+$body-bg: lemonchiffon;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+.button-text {
+  text-decoration: none;
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+.card-img {
+  height: 70%; 
+}
+
+.navbar {
+  background-color: $primary;
+  border-radius: 0px 0px 1em 1em;
+  margin-bottom: 2em;
+}
+
+.fav-button {
+  margin-bottom: 2em;
+}
+
+.movie-card {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-img {
+    height: 60%;
+  }
+}
